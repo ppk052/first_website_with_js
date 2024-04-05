@@ -1,0 +1,1 @@
+document.body.style.backgroundImage = "url('img/"+ String(Math.floor(Math.random()*22))+".jpg')";
