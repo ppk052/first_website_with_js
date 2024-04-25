@@ -1,0 +1,16 @@
+/*for pc*/
+@media (hover:hover) and (pointer:fine) {
+    .hidden{
+        display: none;
+    }
+    body{
+        background-size: cover;
+    }
+    button:hover,button:focus{
+        color: white;
+        background-color: black;
+    }
+    /*#h1id1,#h1id2,#h1id3{color: red;}*/
+    .h1class{color: blue;}
+    h1:nth-of-type(1){color: white;}
+} 
