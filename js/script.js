@@ -25,5 +25,3 @@ else
     greeting.classList.remove(hidden);
     userclear.addEventListener("click",clearuser);
 }
-
-

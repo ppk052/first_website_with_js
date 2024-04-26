@@ -1,5 +1,5 @@
 /*for mobile*/
-@media (hover:none) and (pointer:coarse) {
+@media screen and (any-pointer:coarse) {
     .hidden{
         display: none;
     }
@@ -11,7 +11,8 @@
         color: white;
         background-color: black;
     }
-    /*#h1id1,#h1id2,#h1id3{color: red;}*/
-    .h1class{color: blue;}
-    h1:nth-of-type(1){color: red;}
-} 
+    h1{
+        color: red;
+    }
+}
+    

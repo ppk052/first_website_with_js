@@ -102,4 +102,4 @@ const author = document.querySelector("#quote span:last-child");
 const nowquote = quotes[Math.floor(Math.random()*(quotes.length))];
 
 quote.innerText = nowquote.quote+"\n";
-author.innerText = nowquote.author;
+author.innerText = "-"+nowquote.author;

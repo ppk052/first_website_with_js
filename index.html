@@ -5,27 +5,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mem</title>
-        <link href="css/pcstyle.css" rel="stylesheet">
-        <link href="css/mobilestyle.css" rel="stylesheet">
-    </head>
+        <!--<link href="css/pcstyle.css" rel="stylesheet">
+        <link href="css/mobilestyle.css" rel="stylesheet">-->
+        <link href="css/style.css" rel="stylesheet">
+        </head>
     <body>
         <h2 id = "clock"></h2>
-        <form class="hidden" id="login-form">
-            <input required maxlength="15" type="text" placeholder="what is your name?">
-            <button>Log In</button>          
-        </form>         
-        <form id ="greeting" class="hidden">
-            <h1 id="greetingtext">hi</h1>            
-            <button id="userclear">사용자정보삭제</button>
-        </form>
-        <form id="todo-form">
-            <input type="text" placeholder="Write a To Do and Press enter" required>
-        </form>
-        <ul id="todo-list"></ul>
         <div id="quote">
             <span></span>
             <span></span>
         </div>
+        <form class="hidden" id="login-form">
+            <input required maxlength="15" type="text" placeholder="what is your name?">
+            <button>Register</button>          
+        </form>         
+        <form id ="greeting" class="hidden">
+            <h1 id="greetingtext">hi</h1> 
+            <div>
+                <button class="" id="userclear">사용자정보삭제</button>
+            </div>           
+        </form>
+        <span id="todo">
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To Do and Press enter" required>
+            </form>
+        </span>
+        <ul id="todo-list"></ul>
+       
         <div id="weather">
             <span></span>
             <span></span>
@@ -35,6 +41,6 @@
         <script src="js/quote.js"></script>
         <script src="js/background.js"></script>
         <script src="js/todo.js"></script>
-        <script src="js/weather.js"></script>
+        <!--<script src="js/weather.js"></script>-->
     </body>
 </html>
