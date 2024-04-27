@@ -26,7 +26,7 @@ function paintToDo(newTodo)
     const newspan = document.createElement("span");
     newspan.innerText=newTodo.text;
     const newbtn = document.createElement("button");
-    newbtn.innerText="X";
+    newbtn.innerText="Delete";
     newbtn.addEventListener("click",deletetodo);
     newli.appendChild(newspan);
     newli.appendChild(newbtn);
